@@ -1,8 +1,7 @@
 package Lecture5;
 
-// AssignGrade.java: Assign grade
+// AssignGrade.java: Assign grades
 import java.util.Scanner;
-import javax.swing.*;
 
 public class AssignGrade {
 
@@ -25,7 +24,6 @@ public class AssignGrade {
         scores = new int[numOfStudents];
 
         // Read scores and find the best score
-        //JOptionPane.showMessageDialog(null"Please enter " + numOfStudents + " scores");
         for (int i = 0; i < scores.length; i++) {
             System.out.println("Enter Score " + (i + 1));
             scores[i] = sc.nextInt();
